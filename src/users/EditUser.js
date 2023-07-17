@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 export default function EditUser() {
@@ -21,7 +21,7 @@ export default function EditUser() {
 
     const onSubmit =async (e) => {
         e.preventDefault();
-        await axios.put('http://localhost:8080/user/${id}', user);
+        // await axios.put('http://localhost:8080/user/${id}', user);
         navigate("/");
     };
   return (
