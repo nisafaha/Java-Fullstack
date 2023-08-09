@@ -22,7 +22,7 @@ export default function Home() {
     <tr>
       <th scope="col">#</th>
       <th scope="col">First Name</th>
-      <th scope="col">Username</th>
+      <th scope="col">User_name</th>
       <th scope="col">Email</th>
       <th scope="col">Action</th>
     </tr>
